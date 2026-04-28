@@ -1,5 +1,4 @@
 #include "wang5.h"
-//jk,
 Wang5::Wang5(std::string name_): Node(name_)
 {
     RCLCPP_INFO(this->get_logger(), "Hello, this is %s node!", this->get_name());
